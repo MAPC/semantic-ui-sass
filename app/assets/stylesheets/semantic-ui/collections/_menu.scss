@@ -30,7 +30,7 @@
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
-  border-radius: 0.28571429rem;
+  border-radius: $border-radius;
   min-height: 2.85714286em;
 }
 .ui.menu:after {
@@ -278,7 +278,7 @@
 /* Secondary */
 .ui.secondary.menu .dropdown.item > .menu,
 .ui.text.menu .dropdown.item > .menu {
-  border-radius: 0.28571429rem;
+  border-radius: $border-radius;
   margin-top: 0.35714286em;
 }
 
@@ -598,7 +598,7 @@ Floated Menu / Item
   border-radius: 0em 0em 0.28571429rem 0.28571429rem;
 }
 .ui.vertical.menu > .active.item:only-child {
-  border-radius: 0.28571429rem;
+  border-radius: $border-radius;
 }
 .ui.vertical.menu .active.item .menu .active.item {
   border-left: none;
@@ -811,7 +811,7 @@ Floated Menu / Item
   background: none;
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease;
-  border-radius: 0.28571429rem;
+  border-radius: $border-radius;
 }
 
 /* No Divider */
@@ -844,7 +844,7 @@ Floated Menu / Item
   box-shadow: none;
   background: rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.95);
-  border-radius: 0.28571429rem;
+  border-radius: $border-radius;
 }
 
 /* Active Hover */

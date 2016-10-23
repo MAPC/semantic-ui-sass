@@ -22,7 +22,7 @@
   box-shadow: none;
   background: rgba(0, 0, 0, 0.1);
   padding: 0em;
-  border-radius: 0.28571429rem;
+  border-radius: $border-radius;
 }
 .ui.progress:first-child {
   margin: 0em 0em 2.5em;
@@ -45,7 +45,7 @@
   width: 0%;
   min-width: 2em;
   background: #888888;
-  border-radius: 0.28571429rem;
+  border-radius: $border-radius;
   -webkit-transition: width 0.1s ease, background-color 0.1s ease;
   transition: width 0.1s ease, background-color 0.1s ease;
 }
@@ -239,7 +239,7 @@
   right: 0px;
   bottom: 0px;
   background: #FFFFFF;
-  border-radius: 0.28571429rem;
+  border-radius: $border-radius;
   -webkit-animation: progress-active 2s ease infinite;
           animation: progress-active 2s ease infinite;
 }
